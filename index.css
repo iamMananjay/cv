@@ -1,0 +1,1095 @@
+
+/*--------------------------------------------------------- import the font-----------------------------------------------------  */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); */
+/* ------------------------------------------------------css start here----------------------------------------------------- */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,100&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+}
+.container-fluid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: whitesmoke;
+}
+.container_fluid_center {
+
+  height: auto;
+  width: 45vw;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+/*------------------------------------------------- left side container start here---------------------------------------- */
+.sidebar {
+  background-color: #3059b6;
+  padding: 1em;
+  width: auto;
+  height: 100vh;
+}
+/*------------------------------------------------ leftside container profile start here----------------------------------- */
+.sidebar img {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1em auto;
+  border: 2px solid white;
+}
+/* --------------------------------------------leftside container profile end here--------------------------------------- */
+
+/*------------------------------------------------ contact section css start here---------------------------------------- */
+.sidebar_contact {
+  margin-bottom: 23px;
+  color: white;
+}
+.sidebar_contact h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.sidebar_contact_detail {
+  display: flex;
+  margin-bottom: 10px;
+}
+.sidebar_contact_detail i {
+  margin-right: 3%;
+  height: 20px;
+  width: 20px;
+}
+.sidebar_contact_detail span{
+  font-size: 15px;
+  font-weight:lighter;
+}
+/*--------------------------------------------- contact section css end here--------------------------------------------- */
+
+/* ----------------------------------------------skill section css start here--------------------------------------------- */
+.sidebar_skill {
+  margin-bottom: 23px;
+  color: white;
+}
+.sidebar_skill h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.sidebar_skill h4{
+  font-size: 15px;
+  font-weight:lighter;
+  margin-bottom: 10px;
+}
+/*------------------------------------------------ skill section css end here-------------------------------------------- */
+
+
+
+/* ------------------------------------------------language section css start here--------------------------------------- */
+.sidebar_language{
+  color: white;
+  margin-bottom: 23px;
+}
+.sidebar_language h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.sidebar_rating h4{
+  font-size: 15px;
+  font-weight:lighter;
+  margin:0 0 10px 0;
+  width: 47px;
+  
+}
+
+.sidebar_rating{
+  display: flex;
+
+}
+.rating{
+  display: flex;
+  margin-left: 1em;
+}
+
+.circle{
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+.circle.last{
+  background-color: #AAA4A4;
+}
+
+/*------------------------------------------------ language section css end here -----------------------------------------*/
+
+/* ------------------------------------------------hobbie section css start here--------------------------------------- */
+.sidebar_hobbie{
+  color: white;
+  margin-bottom: 23px;
+}
+.sidebar_hobbie h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.sidebar_hobbie h4{
+  font-size: 15px;
+  font-weight:lighter;
+  margin-bottom: 10px;
+}
+
+
+
+/*----------------------------------------------- hobbies section css end here------------------------------------------ */
+
+/*------------------------------------------------- left side container end here---------------------------------------- */
+
+
+
+/*------------------------------------------------- right side container start here---------------------------------------- */
+.content{
+  width: auto;
+  height: 100vh;
+  background-color: white;
+}
+/* -------------------------------------------------headersection css start here-------------------------------------------- */
+.content_header{
+  background-color:#F0F0F0;
+  height: 125px;
+  color: #3059B6;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; 
+}
+.content_underline{
+  height: 3px;
+  width: 10vw;
+  background-color: #3059B6;
+  margin: 0 auto;
+
+}
+/* -------------------------------------------------headersection css end here-------------------------------------------- */
+
+/* -------------------------------------------------summarysection css start here-------------------------------------------- */
+
+.content_summary{
+  padding: 1em;
+  text-align: justify;
+}
+.content_summary h3{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_summary p{
+  color: #635454;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  line-height: 1.3em;
+  font-weight:normal;
+
+}
+/* -------------------------------------------------summarysection css end here-------------------------------------------- */
+
+
+/* -------------------------------------------------experiencesection css start here-------------------------------------------- */
+
+.content_experience{
+  padding: 1em;
+  text-align: justify;
+}
+.content_experience h3{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_experience h4{
+  font-size: 16px;
+  margin-bottom: 0.2em;
+  font-weight:700;
+  
+  letter-spacing: 1px;
+}
+.content_experience h5{
+  font-size: 16px;
+  margin-bottom: 0.2em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+  font-weight:500;
+
+}
+/* -------------------------------------------------experiencesection css end here-------------------------------------------- */
+
+
+/* -------------------------------------------------educationsection css start here-------------------------------------------- */
+
+.content_education{
+  padding: 1em;
+  text-align: justify;
+
+}
+.content_education h3{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_education h4{
+  font-size: 16px;
+  margin-bottom: 0.2em;
+  font-weight:700;
+
+  letter-spacing: 1px;
+
+}
+.content_education h5{
+  font-size: 16px;
+  margin-bottom: 0.2em;
+  letter-spacing: 1px;
+  /* color: #635454; */
+  color: #635454;
+
+  font-weight:500;
+
+}
+/* -------------------------------------------------educationsection css end here-------------------------------------------- */
+
+/*------------------------------------------------- right side container end here---------------------------------------- */
+
+/* ------------------------------------------------------css end here----------------------------------------------------- */
+
+
+
+
+  /*---------------------------------------// Responsive Web Design - Media Queries start here// ---------------------------- */
+  /*--------------------------------------- Responsive Web Design from 1024 to 1400 px start here  ---------------------------- */
+
+@media screen and (max-width:1400px) {
+  .container_fluid_center {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+
+  /*------------------------------------------------- left side container start here---------------------------------------- */
+
+  /*------------------------------------------------ contact section css start here---------------------------------------- */
+.sidebar_contact h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.sidebar_contact_detail i {
+  margin-right: 3%;
+  height: 25px;
+  width: 25px;
+}
+.sidebar_contact_detail span{
+  font-size: 17px;
+}
+/*--------------------------------------------- contact section css end here--------------------------------------------- */
+
+/* ----------------------------------------------skill section css start here--------------------------------------------- */
+.sidebar_skill h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.sidebar_skill h4{
+  font-size: 17px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*------------------------------------------------ skill section css end here-------------------------------------------- */
+
+/* ------------------------------------------------language section css start here--------------------------------------- */
+
+.sidebar_language h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.sidebar_rating h4{
+  font-size: 17px;
+  font-weight:lighter;
+  margin:0 0 0.2em 0;
+  width: 47px;
+  
+}
+.circle{
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+/*------------------------------------------------ language section css end here -----------------------------------------*/
+
+/* ------------------------------------------------hobbie section css start here--------------------------------------- */
+.sidebar_hobbie h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_hobbie h4{
+  font-size: 17px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*----------------------------------------------- hobbies section css end here------------------------------------------ */
+
+/*------------------------------------------------- left side container end here---------------------------------------- */
+
+
+  /*------------------------------------------------- right side container start here---------------------------------------- */
+  .content{
+    width: auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+    /* -------------------------------------------------headersection css start here-------------------------------------------- */
+.content_header{
+  font-size: 1.5em;
+  margin-bottom: 1em; 
+}
+.content_underline{
+  height: 0.2em;
+  width: 12vw;
+  background-color: #3059B6;
+  margin: 0 auto;
+}
+/* -------------------------------------------------headersection css end here-------------------------------------------- */
+/* -------------------------------------------------summarysection css start here-------------------------------------------- */
+.content_summary h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_summary p{
+  color: #635454;
+
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.1em;
+}
+/* -------------------------------------------------experiencesection css start here-------------------------------------------- */
+.content_experience h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_experience h4{
+  font-size: 20px;
+  margin-bottom: 0.4em;
+}
+.content_experience h5{
+  font-size: 18px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  color: #635454;
+}
+/* -------------------------------------------------experiencesection css end here-------------------------------------------- */
+
+/* -------------------------------------------------educationsection css start here-------------------------------------------- */
+
+.content_education h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_education h4{
+  font-size: 20px;
+  margin-bottom: 0.4em;
+}
+.content_education h5{
+  font-size: 18px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  color: #635454;
+}
+/* -------------------------------------------------educationsection css end here-------------------------------------------- */
+}
+/*------------------------------------------------- right side container end here---------------------------------------- */
+
+
+
+
+
+  /*--------------------------------------- Responsive Web Design from 1024 to 1400 px end here  ---------------------------- */
+  /*--------------------------------------- Responsive Web Design from 768 to 1024 px start here  ---------------------------- */
+
+@media screen and (max-width:1024px) {
+  .container_fluid_center {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 32% 68%;
+  }
+  .sidebar {
+    background-color: #3059b6;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  /*------------------------------------------------ contact section css start here---------------------------------------- */
+.sidebar_contact h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_contact_detail i {
+  margin-right: 3%;
+  height: 22px;
+  width: 22px;
+}
+.sidebar_contact_detail span{
+  font-size: 16px;
+  font-weight:lighter;
+}
+/*--------------------------------------------- contact section css end here--------------------------------------------- */
+
+/* ----------------------------------------------skill section css start here--------------------------------------------- */
+.sidebar_skill h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_skill h4{
+  font-size: 16px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*------------------------------------------------ skill section css end here-------------------------------------------- */
+
+/* ------------------------------------------------language section css start here--------------------------------------- */
+
+.sidebar_language h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_rating h4{
+  font-size: 16px;
+  font-weight:lighter;
+  margin:0 0 0.2em 0;
+  width: 47px;
+  
+}
+.circle{
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+/*------------------------------------------------ language section css end here -----------------------------------------*/
+
+/* ------------------------------------------------hobbie section css start here--------------------------------------- */
+.sidebar_hobbie h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_hobbie h4{
+  font-size: 16px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*----------------------------------------------- hobbies section css end here------------------------------------------ */
+/*------------------------------------------------- right side container start here---------------------------------------- */
+.content{
+  width: auto;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+  /* -------------------------------------------------headersection css start here-------------------------------------------- */
+.content_header{
+font-size: 1.4em;
+margin-bottom: 1.2em;
+}
+.content_underline{
+height: 0.2em;
+width: 15vw;
+background-color: #3059B6;
+margin: 0 auto;
+}
+/* -------------------------------------------------headersection css end here-------------------------------------------- */
+/* -------------------------------------------------summarysection css start here-------------------------------------------- */
+.content_summary h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_summary p{
+  color: #635454;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+/* -------------------------------------------------experiencesection css start here-------------------------------------------- */
+.content_experience h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_experience h4{
+  font-size: 19px;
+  margin-bottom: 0.4em;
+}
+.content_experience h5{
+  font-size: 17px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------experiencesection css end here-------------------------------------------- */
+
+/* -------------------------------------------------educationsection css start here-------------------------------------------- */
+
+.content_education h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 19px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_education h4{
+  font-size: 19px;
+  margin-bottom: 0.4em;
+}
+.content_education h5{
+  font-size: 17px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------educationsection css end here-------------------------------------------- */
+}
+/*------------------------------------------------- right side container end here---------------------------------------- */
+
+
+
+  /*--------------------------------------- Responsive Web Design from 768 to 1024 px end here  ---------------------------- */
+
+
+  /*--------------------------------------- Responsive Web Design from 576 to 768 px start here  ---------------------------- */
+
+@media screen and (max-width:768px) {
+  .container_fluid_center {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 37% 63%;
+  }
+
+  .sidebar {
+    background-color: #3059b6;
+    padding: 1em 0 0 0.5em;
+    width: auto;
+    height: 100%;
+  }
+
+   
+  /*------------------------------------------------ contact section css start here---------------------------------------- */
+.sidebar_contact h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_contact_detail i {
+  margin-right: 3%;
+  height: 15px;
+  width: 15px;
+}
+.sidebar_contact_detail span{
+  font-size: 14px;
+  /* font-weight:lighter; */
+}
+/*--------------------------------------------- contact section css end here--------------------------------------------- */
+
+/* ----------------------------------------------skill section css start here--------------------------------------------- */
+.sidebar_skill h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_skill h4{
+  font-size: 14px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*------------------------------------------------ skill section css end here-------------------------------------------- */
+
+/* ------------------------------------------------language section css start here--------------------------------------- */
+
+.sidebar_language h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_rating h4{
+  font-size: 14px;
+  font-weight:lighter;
+  margin:0 0 0.2em 0;
+  width: 47px;
+  
+}
+.circle{
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+/*------------------------------------------------ language section css end here -----------------------------------------*/
+
+/* ------------------------------------------------hobbie section css start here--------------------------------------- */
+.sidebar_hobbie h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_hobbie h4{
+  font-size: 14px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*----------------------------------------------- hobbies section css end here------------------------------------------ */
+
+/*------------------------------------------------- right side container start here---------------------------------------- */
+.content{
+  width: auto;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+  /* -------------------------------------------------headersection css start here-------------------------------------------- */
+.content_header{
+font-size: 1.2em;
+margin-bottom: 0.6em;
+}
+.content_underline{
+height: 0.2em;
+width: 18vw;
+background-color: #3059B6;
+margin: 0 auto;
+}
+/* -------------------------------------------------headersection css end here-------------------------------------------- */
+
+/* -------------------------------------------------summarysection css start here-------------------------------------------- */
+.content_summary h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_summary p{
+  /* color: #444343; */
+  color: #635454;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+/* -------------------------------------------------experiencesection css start here-------------------------------------------- */
+.content_experience h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_experience h4{
+  font-size: 16px;
+  margin-bottom: 0.4em;
+}
+.content_experience h5{
+  font-size: 14px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------experiencesection css end here-------------------------------------------- */
+
+/* -------------------------------------------------educationsection css start here-------------------------------------------- */
+
+.content_education h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_education h4{
+  font-size: 16px;
+  margin-bottom: 0.4em;
+}
+.content_education h5{
+  font-size: 14px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------educationsection css end here-------------------------------------------- */
+}
+/*------------------------------------------------- right side container end here---------------------------------------- */
+
+
+  
+
+  /*--------------------------------------- Responsive Web Design from 576 to 768 px end here  ---------------------------- */
+
+
+  /*--------------------------------------- Responsive Web Design from small to 576 px start here  ---------------------------- */
+
+@media screen and (max-width:576px) {
+  .container-fluid {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    place-items: unset;
+    background-color: rgb(194, 194, 194);
+  }
+  .container_fluid_center {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .sidebar {
+    background-color: #3059b6;
+    padding: 1em 0 0 0.4em;
+    width: auto;
+    height: 100%;
+  }
+
+   
+  /*------------------------------------------------ contact section css start here---------------------------------------- */
+.sidebar_contact h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_contact_detail i {
+  margin-right: 5%;
+  height: 13px;
+  width: 13px;
+}
+.sidebar_contact_detail span{
+  font-size: 12px;
+  font-weight:lighter;
+}
+/*--------------------------------------------- contact section css end here--------------------------------------------- */
+
+/* ----------------------------------------------skill section css start here--------------------------------------------- */
+.sidebar_skill h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_skill h4{
+  font-size: 13px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*------------------------------------------------ skill section css end here-------------------------------------------- */
+
+/* ------------------------------------------------language section css start here--------------------------------------- */
+
+.sidebar_language h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_rating h4{
+  font-size: 13px;
+  font-weight:lighter;
+  margin:0 0 0.2em 0;
+  width: 47px;
+  
+}
+.circle{
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+/*------------------------------------------------ language section css end here -----------------------------------------*/
+
+/* ------------------------------------------------hobbie section css start here--------------------------------------- */
+.sidebar_hobbie h3 {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.sidebar_hobbie h4{
+  font-size: 13px;
+  font-weight:lighter;
+  margin-bottom: 0.2em;
+}
+/*----------------------------------------------- hobbies section css end here------------------------------------------ */
+
+/*------------------------------------------------- right side container start here---------------------------------------- */
+.content{
+  width: auto;
+  height: 100%;
+  background-color: rgb(253, 253, 253);
+}
+  /* -------------------------------------------------headersection css start here-------------------------------------------- */
+.content_header{
+font-size: 0.7em;
+margin-bottom: 1em;
+}
+.content_underline{
+height: 0.2em;
+width: 25vw;
+background-color: #3059B6;
+margin: 0 auto;
+}
+/* -------------------------------------------------headersection css end here-------------------------------------------- */
+
+/* -------------------------------------------------summarysection css start here-------------------------------------------- */
+.content_summary h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_summary p{
+  /* color: #444343; */
+  color: #635454;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  font-weight:normal;
+}
+/* -------------------------------------------------experiencesection css start here-------------------------------------------- */
+.content_experience h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_experience h4{
+  font-size: 15px;
+  margin-bottom: 0.4em;
+}
+.content_experience h5{
+  font-size: 13px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------experiencesection css end here-------------------------------------------- */
+
+/* -------------------------------------------------educationsection css start here-------------------------------------------- */
+
+.content_education h3{
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  color:  #3059B6;
+  text-transform: uppercase;
+}
+.content_education h4{
+  font-size: 15px;
+  margin-bottom: 0.4em;
+}
+.content_education h5{
+  font-size: 13px;
+  margin-bottom: 0.4em;
+  letter-spacing: 1px;
+  /* color: #444343; */
+  color: #635454;
+
+}
+/* -------------------------------------------------educationsection css end here-------------------------------------------- */
+}
+/*------------------------------------------------- right side container end here---------------------------------------- */
+
+ 
+  
+  
+
+  /*--------------------------------------- Responsive Web Design from small to 576 px end here ---------------------------- */
+
+
+
+  @media print {
+    .container-fluid {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      place-items: center;
+      background-color: whitesmoke;
+    }
+    .container_fluid_center {
+    
+      height: auto;
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 35% 65%;
+    }
+    
+    
+
+  }
+
+   
+  /*--------------------------------------- Responsive Web Design - Media Queries end here ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
